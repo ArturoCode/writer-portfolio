@@ -1,0 +1,74 @@
+/*FUENTES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+nav{
+    font-family: 'Raleway', sans-serif;
+}
+
+.row{
+    /*Para que no tenga el margen por defecto de bootstrap*/
+    margin:0;
+  }
+
+#secciones{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion{
+    height:530px;
+    width: 350px;
+    overflow: hidden;
+    margin-right: 30px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    transition: 0.3s;
+    text-align: center;
+  }
+  
+  .seccion:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+
+#titulo-seccion{
+    margin-top: 8px;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 5px;
+}
+
+#link{
+    text-decoration: none;
+    color:black;
+}
+
+#elementos-footer {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+#social{
+    padding-top: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+#social-icon{
+    margin-right: 20px;
+    color:gray
+}
+
+#copy{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

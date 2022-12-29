@@ -1,0 +1,84 @@
+/*www.oguzhansengul.com*/
+#rcbrandDemo1, #rcbrandDemo2, #rcbrandDemo3 {
+    display:none;
+    }
+    
+    .rc-rcbrand-container {
+        position:relative;
+        max-width:100%;
+        margin-bottom: 20px;
+    }
+    .rc-rcbrand-ul {
+        position:relative;
+        width:99999px;
+        margin:0px;
+        padding:0px;
+        list-style-type:none;   
+        text-align:center;  
+        overflow: auto;
+    }
+    
+    .rc-rcbrand-inner {
+        position: relative;
+        overflow: hidden;
+        float:left;
+        width:100%;
+        background: #ffffff;;
+        border:1px solid #ccc;
+        border-radius:5px;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;  
+    }
+    
+    .rc-rcbrand-item {
+        float:left;
+        margin:0px;
+        padding:0px;
+        cursor:pointer;
+        position:relative;
+        line-height:0px;
+    }
+    .rc-rcbrand-item img {
+        max-width: 100%;
+        cursor: pointer;
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .rc-rcbrand-nav-left,
+    .rc-rcbrand-nav-right {
+        padding:5px 10px;
+        border-radius:50%;    
+        position: absolute;
+        cursor: pointer;
+        z-index: 4;
+        top: 50%;
+        transform: translateY(-50%);   
+        background: rgb(255, 102, 0, 0.5);
+        color: #fff;     
+    }
+    
+    .rc-rcbrand-nav-left {
+        left: 10px;
+    }
+    
+    .rc-rcbrand-nav-left:before {
+        content: "<"
+    }
+    
+    .rc-rcbrand-nav-left.disabled {
+        opacity: 0.4;
+    }
+    
+    .rc-rcbrand-nav-right {
+        right: 5px;    
+    }
+    
+    .rc-rcbrand-nav-right:before {
+        content: ">"
+    }
+    
+    .rc-rcbrand-nav-right.disabled {
+        opacity: 0.4;
+    }
