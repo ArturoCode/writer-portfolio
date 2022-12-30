@@ -138,7 +138,7 @@
         </div>
 
         <div class="container-slider">
-        <section class="center slider">
+        <section class="regular slider">
             <div>
                 <img src="../../images/sirenbooks.png" width="150px" />
             </div>
@@ -245,11 +245,10 @@
 <script src="../../js/slider.js?v2022" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
     $(document).on('ready', function() {
-      $(".center").slick({
+        $(".regular").slick({
         dots: true,
         infinite: true,
-        centerMode: true,
-        slidesToShow: 5,
+        slidesToShow: 3,
         slidesToScroll: 3
       });
     });
