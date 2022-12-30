@@ -43,6 +43,42 @@ nav{
     letter-spacing: 5px;
 }
 
+/*CARRUSEL*/
+
+.container-slider { margin: 10px auto; max-width: 960px; }
+
+    .slider {
+        width: 85%;
+        margin: 10px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+
 #elementos-footer {
     width: 100%;
     align-items: center;

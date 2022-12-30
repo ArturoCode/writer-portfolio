@@ -88,11 +88,11 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    content: '⬅️';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    content: '➡️';
 }
 
 .slick-next
@@ -106,11 +106,11 @@
 }
 .slick-next:before
 {
-    content: '→';
+    content: '➡️';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: '⬅️';
 }
 
 /* Dots */
@@ -160,10 +160,10 @@
 
     cursor: pointer;
 
-    color: pink;
+    color: black;
     border: 0;
     outline: none;
-    background: aquamarine;
+    background: transparent;
 }
 .slick-dots li button:hover,
 .slick-dots li button:focus
@@ -188,10 +188,10 @@
     width: 20px;
     height: 20px;
 
-    content: '❤️';
+    content: '⚫';
     text-align: center;
 
-    opacity: .25;
+    opacity: 1;
     color: black;
 
     -webkit-font-smoothing: antialiased;
