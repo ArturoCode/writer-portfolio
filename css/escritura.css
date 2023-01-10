@@ -7,6 +7,14 @@ nav{
     font-family: 'Raleway', sans-serif;
 }
 
+.nav-link {
+    color: white !important;
+}
+
+#activo {
+    color: rgb(255, 145, 0) !important;
+}
+
 .row{
     /*Para que no tenga el margen por defecto de bootstrap*/
     margin:0;
