@@ -1,6 +1,6 @@
 
 rssfeed_url = new Array(); 
-rssfeed_url[0]="https://flightsofadreamer.blogspot.com/feeds/posts/default?alt=rss"; rssfeed_url[1]="https://lanaveinvisible.com/tag/arturo-urbanos/feed/"; rssfeed_url[2]="https://avenidadeloslibrosrevista.blogspot.com/feeds/posts/default?alt=rss";  
+rssfeed_url[0]="https://flightsofadreamer.blogspot.com/feeds/posts/default?alt=rss"; rssfeed_url[1]="https://lanaveinvisible.com/tag/arturo-urbanos/feed/"; rssfeed_url[2]="https://avenidadeloslibrosrevista.blogspot.com/feeds/posts/default?alt=rss"; rssfeed_url[3]="https://arturourbanosv.wordpress.com/feed/";  
 rssfeed_frame_width="500"; 
 rssfeed_frame_height="320"; 
 rssfeed_scroll="on"; 
