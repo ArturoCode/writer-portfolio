@@ -28,6 +28,9 @@
     
     <link href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" rel="stylesheet">
 
+    <!--Scripts para el formulario-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript"> emailjs.init('TKdgS_muqGQh6VR4d') </script>
 </head>
 <body style="text-align: justify;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -70,9 +73,29 @@
         </div>
 
         <div id="copy">
-            <p>Si <b>quieres que reseñe</b> tu obra, <a href="mailto: flightsofadreamer@gmail.com">contáctame aquí</a>. 
-                Si <b>quieres hacerme otra propuesta</b> literaria o una entrevista, <a href="mailto: arturourbanosv@gmail.com">contáctame aquí</a>.
-                También puedes seguirme en redes sociales si te gusta mi trabajo.</p> 
+            <p>Si quieres que <b>reseñe tu obra</b>, quieres hacerme <b>otra propuesta literaria</b> o quieres que <b>conteste a una entrevista</b>, rellena este formulario:
+        </div>
+
+        <div align="center">
+              <form id="form">
+              <div class="field">
+                <label for="user_name">Tu nombre*</label>
+                <input required type="text" name="user_name" id="user_name" placeholder="Ej: Jon Snow"></input>
+              </div>
+              <div class="field">
+                <label for="user_email">Tu email*</label>
+                <input required type="email" name="user_email" id="user_email" placeholder="Ej: jon@snow.com"></input>
+              </div>
+              <div class="field">
+                <label for="message">Tu mensaje*</label>
+                <textarea required name="message" id="message" rows="6" placeholder="Escribe tu mensaje aquí"></textarea>
+              </div>
+              <input type="submit" id="button" value="Enviar"></input>
+            </form>
+        </div>
+
+        <div id="copy">      
+            <p>También puedes seguirme en redes sociales si quieres saber más de mí o de mi trabajo.</p> 
         </div>
 
         <div id="social" class="row">
@@ -191,6 +214,9 @@
         </div>
     </div>
       </footer>
+
+    <!-- Script el formulario-->
+    <script src="../../js/form.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
