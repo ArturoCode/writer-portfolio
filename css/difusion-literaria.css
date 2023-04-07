@@ -50,6 +50,12 @@ nav{
     letter-spacing: 5px;
 }
 
+#ficha{
+  width: 550px;
+	overflow: hidden;
+  margin-right: 20px;
+}
+
 /*CARRUSEL*/
 
 .container-slider { margin: 10px auto; max-width: 960px; }

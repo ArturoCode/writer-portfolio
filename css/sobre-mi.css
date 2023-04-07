@@ -51,6 +51,12 @@ nav{
     letter-spacing: 5px;
 }
 
+#ficha{
+  width: 550px;
+	overflow: hidden;
+  margin-right: 20px;
+}
+
 /*FORMULARIO*/
 
 .field {
